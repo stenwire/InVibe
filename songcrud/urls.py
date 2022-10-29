@@ -19,5 +19,5 @@ from musicapp import urls as app_urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('musicapp/', include(app_urls)),
+    path('', include(app_urls)),
 ]
