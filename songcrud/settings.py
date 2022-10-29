@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-ml(o-7e^=xgmv8+jns++i%4hp88&+f7pe))ts5zct)vvz$fpvk
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', 'songcrud.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'songcrud.herokuapp.com']
 
 
 # Application definition
@@ -44,7 +44,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    "whitenoise.middleware.WhiteNoiseMiddleware",
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
