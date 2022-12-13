@@ -1,4 +1,4 @@
-# A Music App project
+# A Music Api project
 
 # Tools
 
